@@ -1,0 +1,403 @@
+body {
+    background-image: url("../image/b_body.jpg");
+}
+
+.main {
+    width: 1000px;
+    height: 945px;
+    margin: 0 auto;
+    background-image: url("../image/b_coffee.jpg");
+    opacity: .9;
+}
+
+.menu {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 7px 0 7px;
+    /*float: left;*/
+    /*list-style-type: none;*/
+    /*margin-left: 30px;*/
+    /*text-decoration: none;*/
+    /*font-size: 30px;*/
+    /*margin-top: -18px;*/
+    display: inline-block;
+    float: none;
+
+}
+
+.btn1 {
+    margin-left: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu b:hover {
+    color: green;
+}
+
+
+.contain {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+
+}
+
+.containImg {
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+.containImg img {
+    margin-top: 18px;
+    width: 200px;
+}
+
+.containImage img {
+    margin-top: 35px;
+    width: 90%;
+}
+
+.containImage {
+    width: 70%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.picture {
+    width: 80%;
+    height: 270px;
+    margin: auto;
+}
+
+
+.picture {
+    display: flex;
+}
+
+.imgarrowPicture {
+    flex: 5%;
+    padding: 1%;
+    margin-top: 108px;
+
+
+}
+
+.imgPicture {
+    flex: 50%;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.content {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.contentImg {
+    flex: 50%;
+    padding: 25px;
+    margin-top: 6px;
+
+}
+
+.contentImg a {
+    color: green;
+}
+
+.contentImg ul {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 3px;
+
+
+}
+
+.circle {
+    float: left;
+}
+
+.circle img {
+    display: block;
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+.data {
+    color: green;
+    margin-top: 25px;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+.line {
+    width: 1%;
+    margin-left: 39px;
+    margin-top: -77px;
+}
+
+.footer {
+    width: 80%;
+    height: 65px;
+    margin: auto;
+    margin-top: -7px;
+}
+
+.main1 {
+    padding: -10px;
+    float: left;
+    width: 59%;
+
+
+}
+
+.logo {
+    padding: 2px;
+    float: right;
+    width: 40%;
+
+}
+
+.main1 ul {
+    list-style-type: none;
+
+}
+
+.main1 ul li {
+    float: left;
+    padding: 3px;
+}
+
+.log {
+    margin-top: 10px;
+}
+
+.boyCv {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+.boy {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+
+.cv {
+    margin-left: 195px;
+    margin-top: -12px;
+}
+
+.educ {
+    width: 80%;
+    margin: auto;
+    height: 266px;
+
+}
+
+.educLeft {
+    width: 40%;
+    float: left;
+    margin-bottom: 5px;
+
+}
+
+.educLeft a {
+    color: green;
+}
+
+.educRight {
+    width: 60%;
+    float: right;
+}
+
+.leftMenu {
+    width: 50%;
+
+}
+
+. rightMenu {
+    width: 50%;
+
+}
+
+.educRight p {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.leftMenu li {
+    list-style-type: none;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    height: 50px;
+}
+
+table a {
+    color: green;
+}
+
+.mainPortfolio {
+    width: 80%;
+    height: 630px;
+    margin: auto;
+}
+
+.lefPortfolio {
+    width: 40%;
+    float: left;
+}
+
+.rightPortfolio {
+    width: 60%;
+    float: right;
+
+}
+
+.lefPortfolio li {
+    list-style-type: none;
+}
+
+.lefPortfolio a {
+    color: green;
+}
+
+.lefPortfolio p.font {
+    font-weight: bold;
+}
+
+.downLeft {
+    width: 70%;
+    float: left;
+}
+
+.downRight {
+    width: 30%;
+    float: right;
+}
+
+.downRight p {
+    margin-top: -25px;
+    margin-left: -7px;
+}
+
+.www {
+    float: right;
+    width: 40%;
+    padding: 1px;
+    margin-top: 10px;
+}
+
+.servs {
+    float: left;
+    width: 58%;
+    padding: 5px;
+}
+
+.design {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.Phonenumber {
+    width: 100%;
+}
+
+.phone h1 {
+    color: green;
+    float: left;
+    margin-top: 11px;
+}
+
+.phone1 h1 {
+    float: right;
+    color: chocolate;
+    padding: 1px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.info {
+    width: 80%;
+    margin: auto;
+
+}
+
+/*.info form input {*/
+/*    float: left;*/
+/*    height: 30px;*/
+/*}*/
+/*.inf{*/
+/*    width: 80%;*/
+/*}*/
+.info1 {
+    width: 80%;
+    margin: auto;
+
+}
+.info1 input{
+    width: 30%;
+    float: left;
+    margin-left: 15px;
+    height: 35px;
+    opacity: 48%;
+    border-style: dotted;
+
+}
+.info2 {
+    width: 80%;
+    margin: auto;
+
+}
+.info2 textarea{
+    width: 96%;
+    float: left;
+    margin-left: 15px;
+    height: 150px;
+    opacity: 48%;
+    border-style: dotted;
+    margin-top: 30px;
+
+}
+
+
+
+
+
